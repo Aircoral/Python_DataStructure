@@ -20,7 +20,7 @@ def test1():
 def test2():
     li = []
     for i in range (10000):
-        li = li+[i]   #li +=[i]
+        li = li+[i]   #li +=[i]在时间复杂度上优于前者，和append操作相当。
 
 def test3():
     li =[i for i in range(10000)]
